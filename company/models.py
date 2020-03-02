@@ -7,5 +7,5 @@ class Employee(models.Model):
     first_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=100)
     age = models.PositiveIntegerField(null=True, blank=True)
-    phone = models.CharField(max_length=10, unique=True)
+    phone = models.CharField(max_length=100, unique=True)
 
